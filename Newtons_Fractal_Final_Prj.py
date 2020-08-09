@@ -134,12 +134,12 @@ def singraph(step_lim, tol): #shows graph for sinx and its derivative
     brange = (-6, 6)
     point = (200, 100)
     title = 'sin(x)'
-    plot(arange, brange, point, func, title, d_func, step_lim, tol, save=True)
+    plot(arange, brange, point, func, title, d_func, step_lim, tol)
     plt.close()
     arange = (-5.25, -4.2)
     brange = (-0.7, 0.7)
     title = 'sin(x) zoomed'
-    plot(arange, brange, point, func, title, d_func, step_lim, tol, save=True)
+    plot(arange, brange, point, func, title, d_func, step_lim, tol)
     plt.close()
 
 def exgraph(step_lim, tol): #shows graph for e^x and its derivative (no steps)
@@ -151,7 +151,7 @@ def exgraph(step_lim, tol): #shows graph for e^x and its derivative (no steps)
     brange = (10, 20)
     point = (200, 100)
     title = "e**x - should be blank"
-    plot(arange, brange, point, func, title, d_func, step_lim, tol, save=True)
+    plot(arange, brange, point, func, title, d_func, step_lim, tol)
     plt.close()
 
 def polygraph(step_lim, tol): #shows graph for x^3 -1 and its derivative
@@ -161,12 +161,12 @@ def polygraph(step_lim, tol): #shows graph for x^3 -1 and its derivative
     brange = (-6, 6)
     point = (200, 100)
     title = 'x^3 -1'
-    plot(arange, brange, point, func, title, d_func, step_lim, tol, save=True)
+    plot(arange, brange, point, func, title, d_func, step_lim, tol)
     plt.close()
     arange = (-1, 1)
     brange = (-0.5, 0.6)
     title = 'x^3 -1 zoom'
-    plot(arange, brange, point, func, title, d_func, step_lim, tol, save=True)
+    plot(arange, brange, point, func, title, d_func, step_lim, tol)
     plt.close()
 if __name__ == "__main__":
     def f(x):
